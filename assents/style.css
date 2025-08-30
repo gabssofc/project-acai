@@ -192,3 +192,51 @@ footer {
 .link-opcoes:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 29px;
+    margin-top: 80px;
+    text-align: left;
+    margin-left: 15px;
+  }
+  p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 10px;
+}
+  header {
+    width: 100%;
+  }
+  
+  nav {
+    flex-wrap: wrap;
+  }
+  nav a {
+    font-size: 14px;
+    margin: 0 8px;
+  }
+  .search {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search input,
+  .search select,        
+  .search button {
+    width: 90%;
+    max-width: 300px;
+    margin: 5px 0;
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr;
+    margin: 10px;
+  }
+  footer {
+    font-size: 14px;
+    padding: 8px;
+    position: relative;
+  }
