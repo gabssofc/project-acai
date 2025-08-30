@@ -210,7 +210,7 @@ footer {
   header {
     width: 100%;
   }
-  
+
   nav {
     flex-wrap: wrap;
   }
@@ -235,8 +235,10 @@ footer {
     grid-template-columns: 1fr;
     margin: 10px;
   }
+  
   footer {
     font-size: 14px;
     padding: 8px;
     position: relative;
   }
+}
